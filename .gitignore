@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# User-uploaded/generated media
+uploads/*
+stego_store/*
+!uploads/.gitkeep
+!stego_store/.gitkeep
+
+# Local database / logs
+*.db
+*.sqlite
+*.log

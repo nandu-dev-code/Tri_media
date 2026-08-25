@@ -1,0 +1,5 @@
+[phases.setup]
+aptPkgs = ["libsndfile1"]
+
+[start]
+cmd = "gunicorn app:app"
